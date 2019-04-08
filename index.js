@@ -3,7 +3,7 @@ function displayError() {
 }
 
 function renderCommit(commit) {
-  
+
 }
 
 function renderSearchResult(result) {
