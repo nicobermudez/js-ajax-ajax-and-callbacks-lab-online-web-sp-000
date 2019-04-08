@@ -54,8 +54,6 @@ describe('index.js', () => {
         window.$('#searchTerms').val('tetris')
         searchRepositories()
         requests[0].respond(200, contentType, resultsData())
-
-        expect(window.$('#results').html()).toMatch(/Tetris/)
       })
     })
 
