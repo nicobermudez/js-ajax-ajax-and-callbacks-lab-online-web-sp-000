@@ -1,5 +1,7 @@
 function searchRepositories() {
-  $.get('')
+  $.get('', function(data) {
+    
+  })
 }
 
 $(document).ready(function (){
