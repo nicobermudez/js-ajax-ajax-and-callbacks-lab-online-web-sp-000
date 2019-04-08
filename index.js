@@ -1,5 +1,7 @@
 
-function renderSearchResults = (data) => data.items.map( result => renderSearchResult(result))
+function renderSearchResults(data) {
+  data.items.map( result => renderSearchResult(result))
+}
 
 function searchRepositories() {
   const searchTerms = $('#searchTerms').val()
