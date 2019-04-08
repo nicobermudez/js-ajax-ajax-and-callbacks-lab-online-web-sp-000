@@ -1,4 +1,8 @@
 
+function renderSearchResult(result) {
+  
+}
+
 function renderSearchResults(data) {
   data.items.map( result => renderSearchResult(result))
 }
